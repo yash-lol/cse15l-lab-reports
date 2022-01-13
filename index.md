@@ -5,11 +5,11 @@
 ![Image](/DSC01276.JPG) 
 > blocked 
 ---
-1. pro 
+1. pro  
 2. c0der 
-3. joshi 
+3. indeed 
 - no 
 - bullets 
-- kekw \
+- :/ \
 `let a = 79419` \
 *na internet*
