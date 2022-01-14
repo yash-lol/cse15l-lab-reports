@@ -13,3 +13,4 @@
 - kekw \
 `let a = 79419` \
 *na internet*
+![Image](/ss1.png)
