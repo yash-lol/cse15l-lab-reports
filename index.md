@@ -14,4 +14,4 @@
 `let a = 79419` \
 *na internet*
 
-[Lab Report 1](https://<yash-lol>.github.io/index.md/lab-report-1-week-2.html) \
+[Lab Report 1](https://<yash-lol>.github.io/index.html/lab-report-1-week-2.html) \
