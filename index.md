@@ -14,3 +14,5 @@
 `let a = 79419` \
 *na internet*
 
+[Lab Report 1](https://<yash-lol>.github.io/lab-report-1-week-2.md/lab-report-1-week-2.html)
+![Image](\CIMG2623 (1).JPG)
