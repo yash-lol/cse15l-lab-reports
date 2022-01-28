@@ -2,7 +2,7 @@
 ## 1. Install VS code onto your device
 Follow the installation guide on the follwing [link](https://code.visualstudio.com/). \
 When vscode is installed it will look somwething like this. \
-![Image](ss1.png)
+![Image](lab1week2/ss1.png)
 
 ## 2. Remotely Connecting
 You will have to intall a program called OpenSSH on your device, this helps you connect your computer to other computers. \
@@ -19,7 +19,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 type yes, and then enter your password 
 It should look something like this. \
-![Image](ss3.png)
+![Image](lab1week2/ss3.png)
 
 ## 3. Trying Some Commands
 You should now try some commands as follows: \
@@ -31,7 +31,7 @@ You should now try some commands as follows: \
 `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
 `cat /home/linux/ieng6/cs15lwi22/public/hello.txt` \
 It should look something like this \
-![Image](ss4.png)
+![Image](lab1week2/ss4.png)
 To disconnect from the remote server you can use the command ctrl + d, or type `exit`.
 
 ## 4. Moving Files With `scp`
@@ -44,7 +44,7 @@ To send the file to the remote server run the following command on your terminal
 `scp hello.java cs15lwi22zz@ieng6.ucsd.edu:~/` \
 Then you will be prompted to login to your ssh again and then you can run the file on the remote server using javac and java. \
 If done succesfully it will look like this. \
-![Image](ss5.png)
+![Image](lab1week2/ss5.png)
 
 ## 6. SSH Keys
 We can set up some keys to better optimize our experience. Entering the password everytime we want to use the server can be painful. SSH keys help us with that. \
@@ -66,7 +66,7 @@ Using your id above^
 ``` 
 
 After this you should be able to login without a password and it will look like this. 
-![Image](ss7.png)
+![Image](lab1week2/ss7.png)
 
 ## 7. Optimizing Remote Running
 Some things you can do to make using the server more pleasant are: \
@@ -81,7 +81,7 @@ Keystroke: To rexecute the command above i used 10 keystrokes. I used the up arr
 $ cp hello.java OtherMain.java; javac OtherMain.java; java hello
 ```
 -You can use the up arrow to go the previously used commands in the terminal.
-![Image](ss9.png)
+![Image](lab1week2/ss9.png)
 
 
 
