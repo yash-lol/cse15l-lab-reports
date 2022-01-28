@@ -74,6 +74,8 @@ Some things you can do to make using the server more pleasant are: \
 ```
 $ ssh cs15lwi22abc@ieng6.ucsd.edu "ls"
 ```
+Keystroke: To rexecute the command above i used 10 keystrokes. I used the up arrow to reach the ssh command, and 8 more keystrokes to type "ls", and enter to run. 
+
 -You can also use semicolons to run multiple commands on the same line 
 ```
 $ cp hello.java OtherMain.java; javac OtherMain.java; java hello
