@@ -11,7 +11,7 @@
 ![Image](lab4week8/snip2.png)
 
 ### Snip 3
-![Image](lab4week8/snip3.png)
+![Image](lab4week8/snip8.png)
 
 ## Tests
 ```java
@@ -62,8 +62,7 @@
         ArrayList<String> ourLinks = MarkdownParse.getLinks(contents);
 
         assertEquals("Test the links from snip3.md for our method",
-                List.of(" https://www.twitter.com ", "https://ucsd-cse15l-w22.github.io/", "https://cse.ucsd.edu/"),
-                ourLinks);
+                List.of("https://ucsd-cse15l-w22.github.io/", links);
 
     }
 
@@ -73,18 +72,23 @@
         String contents = Files.readString(fileName);
         ArrayList<String> otherLinks = MarkdownParse.getLinksOther(contents);
 
-        assertEquals("Test the links from snip3.md for others method",
-                List.of(" https://www.twitter.com ", "https://ucsd-cse15l-w22.github.io/", "https://cse.ucsd.edu/"),
-                otherLinks);
+         assertEquals("Test the links from snip3.md for our method",
+                List.of("https://ucsd-cse15l-w22.github.io/", links);
     }
 }
 
 ```
 ### My output
 ![Image](lab4week8/snip4.png)
-
+snip 3
+![Image](lab4week8/snip11.png)
 ### Peer output
+snip 1
+![image](lab4week8/snip6.png)
+
 ![Image](lab4week8/snip5.png)
+snip 3
+![Image](lab4week8/snip9.png)
 
 ## Questions
 
