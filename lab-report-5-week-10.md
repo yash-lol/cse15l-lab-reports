@@ -13,7 +13,7 @@ where the script file was
 ```bash
 for file in test-files/*.md;
 do
-    echo $file
+    echo -n $file
     java MarkdownParse $file
     
 done
